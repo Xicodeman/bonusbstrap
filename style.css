@@ -1,3 +1,9 @@
+body::before{
+    display: block;
+    content: ''; /*every time you use 'before or after', you have to add the content.  */
+    height: 60px;
+}
+
 @media(min-width: 768px) {
     .news-input {
         width: 50%;
